@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="title">Countdown Timer</p>
+    <div class="dateTime">
+        <p>Enter date: </p>
+        <input type="date" id="enterDate" required>
+        <p>Enter Time: </p>
+        <input type="time" id="enterTime" required>
+    </div>
+    
+    <button id="button">calculate</button>
+    <button id="stop">stop</button>
+    <button id="reset">reset</button>
+    
+    <div class="container">
+        <div class="innerContainer" id="day">
+            <input type="text" class="select" id="day" readonly>
+            <br>
+            <p>Day</p>
+        </div>
+        <div class="innerContainer" id="hour">
+            <input type="text" class="select" id="hour" readonly>
+            <br>
+            <p>Hour</p>
+        </div>
+        <div class="innerContainer" id="min">
+            <input type="text" class="select" id="min" readonly>
+            <br>
+            <p>Minutes</p>
+        </div>
+        <div class="innerContainer" id="sec">
+            <input type="text" class="select" id="sec" readonly>
+            <br>
+            <p>Seconds</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

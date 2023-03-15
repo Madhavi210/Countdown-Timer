@@ -1,0 +1,64 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_53876-8700.jpg?size=626&ext=jpg&ga=GA1.2.1563232300.1678787144&semt=ais");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.title
+{
+    font-size: 40px;
+}
+
+.dateTime p
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.dateTime input
+{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button
+{
+    margin: 20px 5px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer
+{
+    margin: 5px;
+}
+
+.innerContainer input
+{
+    height: 15vw;
+    width: 15vw;
+    color: white;
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    font-size: 5vw;
+}
